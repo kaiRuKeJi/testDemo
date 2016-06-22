@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		843E02361D1A3F8D00FD356A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E02351D1A3F8D00FD356A /* AppDelegate.swift */; };
 		843E02381D1A3F8D00FD356A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E02371D1A3F8D00FD356A /* ViewController.swift */; };
-		843E023B1D1A3F8D00FD356A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843E02391D1A3F8D00FD356A /* Main.storyboard */; };
 		843E023D1D1A3F8D00FD356A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843E023C1D1A3F8D00FD356A /* Assets.xcassets */; };
-		843E02401D1A3F8D00FD356A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843E023E1D1A3F8D00FD356A /* LaunchScreen.storyboard */; };
 		843E024B1D1A3F8D00FD356A /* Swift_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E024A1D1A3F8D00FD356A /* Swift_____Tests.swift */; };
 		843E02561D1A3F8D00FD356A /* Swift_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E02551D1A3F8D00FD356A /* Swift_____UITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +35,7 @@
 		843E02321D1A3F8D00FD356A /* Swift 功能封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift 功能封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		843E02351D1A3F8D00FD356A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843E02371D1A3F8D00FD356A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		843E023A1D1A3F8D00FD356A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		843E023C1D1A3F8D00FD356A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		843E023F1D1A3F8D00FD356A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843E02411D1A3F8D00FD356A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843E02461D1A3F8D00FD356A /* Swift 功能封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift 功能封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		843E024A1D1A3F8D00FD356A /* Swift_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_____Tests.swift"; sourceTree = "<group>"; };
@@ -99,9 +95,7 @@
 			children = (
 				843E02351D1A3F8D00FD356A /* AppDelegate.swift */,
 				843E02371D1A3F8D00FD356A /* ViewController.swift */,
-				843E02391D1A3F8D00FD356A /* Main.storyboard */,
 				843E023C1D1A3F8D00FD356A /* Assets.xcassets */,
-				843E023E1D1A3F8D00FD356A /* LaunchScreen.storyboard */,
 				843E02411D1A3F8D00FD356A /* Info.plist */,
 			);
 			path = "Swift 功能封装";
@@ -229,9 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843E02401D1A3F8D00FD356A /* LaunchScreen.storyboard in Resources */,
 				843E023D1D1A3F8D00FD356A /* Assets.xcassets in Resources */,
-				843E023B1D1A3F8D00FD356A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +283,6 @@
 			targetProxy = 843E02521D1A3F8D00FD356A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		843E02391D1A3F8D00FD356A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				843E023A1D1A3F8D00FD356A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		843E023E1D1A3F8D00FD356A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				843E023F1D1A3F8D00FD356A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		843E02581D1A3F8D00FD356A /* Debug */ = {
@@ -401,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "Swift 功能封装/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----.Swift-----";
@@ -412,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "Swift 功能封装/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----.Swift-----";
